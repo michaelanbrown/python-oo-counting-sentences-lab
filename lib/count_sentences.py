@@ -29,3 +29,5 @@ class MyString:
     for punc in ['!','?']:
         value = value.replace(punc, '.')
     
+    sentences = [s for s in value.split('.') if s]
+    
