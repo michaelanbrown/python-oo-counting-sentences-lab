@@ -16,3 +16,4 @@ class MyString:
   value = property(get_value, set_value)
 
   def is_sentence(self):
+    return self._value.endswith(".")
