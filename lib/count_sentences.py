@@ -17,3 +17,5 @@ class MyString:
 
   def is_sentence(self):
     return self._value.endswith(".")
+  
+  def is_question(self):
