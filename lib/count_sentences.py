@@ -23,3 +23,5 @@ class MyString:
   
   def is_exclamation(self):
     return self._value.endswith("!")
+  
+  def count_sentences(self):
