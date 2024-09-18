@@ -31,3 +31,4 @@ class MyString:
     
     sentences = [s for s in value.split('.') if s]
     
+    return len(sentences)
