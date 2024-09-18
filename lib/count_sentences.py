@@ -22,3 +22,4 @@ class MyString:
     return self._value.endswith("?")
   
   def is_exclamation(self):
+    return self._value.endswith("!")
