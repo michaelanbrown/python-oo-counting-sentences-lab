@@ -25,3 +25,4 @@ class MyString:
     return self._value.endswith("!")
   
   def count_sentences(self):
+    value = self.value
