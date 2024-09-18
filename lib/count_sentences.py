@@ -10,3 +10,5 @@ class MyString:
   def set_value(self, stringVal):
     if (type(stringVal) == str):
       self._value = stringVal
+    else:
+      print("The value must be a string.")
