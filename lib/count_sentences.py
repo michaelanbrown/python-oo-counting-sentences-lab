@@ -12,3 +12,5 @@ class MyString:
       self._value = stringVal
     else:
       print("The value must be a string.")
+
+  value = property(get_value, set_value)
