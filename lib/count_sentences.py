@@ -26,3 +26,6 @@ class MyString:
   
   def count_sentences(self):
     value = self.value
+    for punc in ['!','?']:
+        value = value.replace(punc, '.')
+    
