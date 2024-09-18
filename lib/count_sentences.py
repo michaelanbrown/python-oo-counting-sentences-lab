@@ -20,3 +20,5 @@ class MyString:
   
   def is_question(self):
     return self._value.endswith("?")
+  
+  def is_exclamation(self):
