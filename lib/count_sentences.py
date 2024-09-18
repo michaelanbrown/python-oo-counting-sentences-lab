@@ -8,3 +8,5 @@ class MyString:
     return self._value
   
   def set_value(self, stringVal):
+    if (type(stringVal) == str):
+      self._value = stringVal
